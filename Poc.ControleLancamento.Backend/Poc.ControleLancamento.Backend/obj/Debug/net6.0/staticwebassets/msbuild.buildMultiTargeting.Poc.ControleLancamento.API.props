@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Poc.ControleLancamento.API.props" />
+</Project>

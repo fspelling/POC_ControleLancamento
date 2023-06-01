@@ -1,0 +1,17 @@
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\bin\Debug\net6.0\Poc.ControleLancamento.Infra.deps.json
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\bin\Debug\net6.0\Poc.ControleLancamento.Infra.runtimeconfig.json
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\bin\Debug\net6.0\Poc.ControleLancamento.Infra.dll
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\bin\Debug\net6.0\Poc.ControleLancamento.Infra.pdb
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\bin\Debug\net6.0\Poc.ControleLancamento.Domain.dll
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\bin\Debug\net6.0\Poc.ControleLancamento.Domain.pdb
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\obj\Debug\net6.0\Poc.ControleLancamento.Infra.csproj.AssemblyReference.cache
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\obj\Debug\net6.0\Poc.ControleLancamento.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\obj\Debug\net6.0\Poc.ControleLancamento.Infra.AssemblyInfoInputs.cache
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\obj\Debug\net6.0\Poc.ControleLancamento.Infra.AssemblyInfo.cs
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\obj\Debug\net6.0\Poc.ControleLancamento.Infra.csproj.CoreCompileInputs.cache
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\obj\Debug\net6.0\Poc.ControleLancamento.Infra.csproj.CopyComplete
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\obj\Debug\net6.0\Poc.ControleLancamento.Infra.dll
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\obj\Debug\net6.0\refint\Poc.ControleLancamento.Infra.dll
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\obj\Debug\net6.0\Poc.ControleLancamento.Infra.pdb
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\obj\Debug\net6.0\Poc.ControleLancamento.Infra.genruntimeconfig.cache
+C:\Projetos\POC_ControleLancamento\Poc.ControleLancamento.Backend\Poc.ControleLancamento.Infra\obj\Debug\net6.0\ref\Poc.ControleLancamento.Infra.dll
