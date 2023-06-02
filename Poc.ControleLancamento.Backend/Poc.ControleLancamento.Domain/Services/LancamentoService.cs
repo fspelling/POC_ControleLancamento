@@ -43,9 +43,9 @@ namespace Poc.ControleLancamento.Domain.Services
             var lancamento = new Lancamento()
             {
                 ID = Guid.NewGuid(),
-                Tipo = request.TipoLancamento,
-                Valor = request.ValorLancamento,
-                Data = request.DataLancamento
+                Tipo = request.Tipo,
+                Valor = request.Valor,
+                Data = request.Data
             };
 
             var cadastro = _lancamentoRepository.Adicionar(lancamento);
@@ -73,7 +73,7 @@ namespace Poc.ControleLancamento.Domain.Services
         public AtualizarResponse Atualizar(AtualizarRequest request)
         {
             var lancamento = _lancamentoRepository.ObterPorId(request.ID);
-            lancamento.Alterar(request.TipoLancamento, request.ValorLancamento, request.DataLancamento);
+            lancamento.Alterar(request.Tipo, request.Valor, request.Data);
 
             var cadastroAtualizado = _lancamentoRepository.Alterar(lancamento);
 

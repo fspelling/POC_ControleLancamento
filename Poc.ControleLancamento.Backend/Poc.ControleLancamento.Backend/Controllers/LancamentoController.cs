@@ -5,8 +5,8 @@ using Poc.ControleLancamento.Domain.Interfaces.Services;
 
 namespace Poc.ControleLancamento.API.Controllers
 {
+    [Route("api/[controller]")]
     [ApiController]
-    [Route("[controller]")]
     public class LancamentoController : ControllerBase
     {
         private readonly ILancamentoService _LancamentoService;
