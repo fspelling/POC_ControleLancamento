@@ -1,0 +1,42 @@
+<div class="container">
+    <div *ngIf="lancamentos.length > 0 else semRegistros">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col" *ngFor="let display of displayColumns">{{ display }}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let lancamento of lancamentos">
+                    <td>
+                        <p class="font-weight-normal">{{ lancamento.valor }}</p>
+                    </td>
+                    <td>
+                        <p class="font-weight-normal">{{ lancamento?.tipo }}</p>
+                    </td>
+                    <td>
+                        <p class="font-weight-normal">{{ lancamento?.data }}</p>
+                    </td>
+                    <td>
+                        <span>
+                            <button type="button" class="btn btn-info btnIcon" (click)="alterarLancamento(lancamento.id)">
+                                <fa-icon [icon]="iconEdit"></fa-icon>
+                            </button>
+                        </span>
+                        <span>
+                            <button type="button" class="btn btn-danger btnIcon" (click)="removerLancamento(lancamento.id)">
+                                <fa-icon [icon]="iconRemove"></fa-icon>
+                            </button>
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <span><b>Saldo consolidado do dia: </b>{{ saldoDia }}</span> 
+    </div>
+
+    <ng-template #semRegistros>
+        <h2 class="text-center">{{ mensagemErro }}</h2>
+    </ng-template>
+</div>
