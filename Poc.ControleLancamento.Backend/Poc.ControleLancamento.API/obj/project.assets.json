@@ -3728,11 +3728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\POC_ControleLancamento\\Poc.ControleLancamento.Backend\\Poc.ControleLancamento.Backend\\Poc.ControleLancamento.API.csproj",
+      "projectUniqueName": "C:\\Projetos\\POC_ControleLancamento\\Poc.ControleLancamento.Backend\\Poc.ControleLancamento.API\\Poc.ControleLancamento.API.csproj",
       "projectName": "Poc.ControleLancamento.API",
-      "projectPath": "C:\\Projetos\\POC_ControleLancamento\\Poc.ControleLancamento.Backend\\Poc.ControleLancamento.Backend\\Poc.ControleLancamento.API.csproj",
+      "projectPath": "C:\\Projetos\\POC_ControleLancamento\\Poc.ControleLancamento.Backend\\Poc.ControleLancamento.API\\Poc.ControleLancamento.API.csproj",
       "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\POC_ControleLancamento\\Poc.ControleLancamento.Backend\\Poc.ControleLancamento.Backend\\obj\\",
+      "outputPath": "C:\\Projetos\\POC_ControleLancamento\\Poc.ControleLancamento.Backend\\Poc.ControleLancamento.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
