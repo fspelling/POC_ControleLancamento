@@ -12,10 +12,10 @@
                         <p class="font-weight-normal">{{ lancamento.valor }}</p>
                     </td>
                     <td>
-                        <p class="font-weight-normal">{{ lancamento?.tipo }}</p>
+                        <p class="font-weight-normal">{{ tipoLancamentoLabel.get(lancamento.tipo.valueOf()) }}</p>
                     </td>
                     <td>
-                        <p class="font-weight-normal">{{ lancamento?.data }}</p>
+                        <p class="font-weight-normal">{{ moment(lancamento?.data).format("DD/MM/YYYY") }}</p>
                     </td>
                     <td>
                         <span>
@@ -33,7 +33,7 @@
             </tbody>
         </table>
 
-        <span><b>Saldo consolidado do dia: </b>{{ saldoDia }}</span> 
+        <span><b>Saldo Consolidado: </b>{{ saldoDia }}</span> 
     </div>
 
     <ng-template #semRegistros>

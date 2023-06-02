@@ -29,6 +29,7 @@ namespace Poc.ControleLancamento.Domain.Services
         public ListarResponse Listar()
         {
             var lancamentos = _lancamentoRepository.Listar().ToList();
+            lancamentos = lancamentos.FindAll(l => l.Data.Date == DateTime.Today.Date);
 
             return new ListarResponse()
             {

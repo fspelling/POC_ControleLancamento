@@ -61,6 +61,7 @@ export class CadastroLancamentoComponent implements OnInit  {
 
   salvarForm() {
     if (this.formLancamento.invalid) {
+      this.alertService.Danger('Favor corrigir o formulario');
       return;
     }
 

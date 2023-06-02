@@ -2,8 +2,8 @@
     <div class="container" (submit)="salvarForm()">
         <form [formGroup]="formLancamento" class="row">
             <div class="form-group col-md-6">
-                <label>Valor Lancamento: </label>
-                <input type="text" class="form-control" formControlName="valor">
+                <label>Valor Lançamento: </label>
+                <input type="number" class="form-control" formControlName="valor">
                 <app-vmessage text="Valor Lancamento é obrigatório" *ngIf="formLancamento.get('valor')?.errors?.['required'] && (formLancamento.get('valor')?.dirty || formLancamento.get('valor')?.touched)"></app-vmessage>
                 <app-vmessage text="Valor Lancamento deve ser maior que 0" *ngIf="formLancamento.get('valor')?.errors?.['valoresPositivos']"></app-vmessage>
             </div>
