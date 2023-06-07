@@ -1,20 +1,10 @@
-# Título do projeto
+# Controle de lançamentos
 
-Um parágrafo da descrição do projeto vai aqui
-
-## 🚀 Começando
-
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
-
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+Projeto que faz o controle do fluxo de caixa diário com os lançamentos (débitos e créditos), diponibilizando também o saldo diário consolidado.
 
 ### 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
-
-```
-Dar exemplos
-```
+Para que o projeto consiga rodar na sua máquina, deverá ter instalado [Node](https://nodejs.org/en) e [DotNet](https://learn.microsoft.com/pt-br/dotnet/core/install/windows?tabs=net70)
 
 ### 🔧 Instalação
 
